@@ -1,0 +1,28 @@
+#header-wrapper {
+    background-image: url(tritip.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+#page-list {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    height: 100%;
+}
+#page-list li {
+    list-style: none;
+}
+
+#content {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 2fr 1fr;
+    justify-items: center;
+    background: #7f1d1d;
+}
